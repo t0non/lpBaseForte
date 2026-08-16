@@ -6,7 +6,7 @@
 
 export const company = {
   // TODO: Preencher com o nome real da empresa
-  name: "Base Forte Construções",
+  name: "Base Forte",
   // TODO: Preencher com o slogan oficial, se houver
   tagline: "Especialistas em Pintura e Porcelanato",
   // TODO: Preencher com descrição real para SEO e rodapé
