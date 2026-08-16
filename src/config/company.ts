@@ -54,7 +54,7 @@ export const company = {
   // ── Redes sociais ────────────────────────────────────────
   // TODO: Preencher com links reais. Deixar vazio ("") para ocultar.
   instagram: "",
-  googleBusiness: "",
+  googleBusiness: "https://share.google/4EcK2xTJYsRhvV52h",
   facebook: "",
 
   // ── Dados legais ─────────────────────────────────────────
