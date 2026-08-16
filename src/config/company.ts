@@ -63,7 +63,7 @@ export const company = {
 
   // ── Domínio ──────────────────────────────────────────────
   // TODO: Preencher com domínio real do site
-  domain: "https://baseforteconstrucoes.com.br",
+  domain: "https://www.baseforteobras.com.br",
 
   // ── Diferenciais (somente informações confirmadas) ───────
   // TODO: Editar ou remover cada item conforme a realidade da empresa
