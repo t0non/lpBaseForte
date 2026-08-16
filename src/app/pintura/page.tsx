@@ -281,6 +281,7 @@ export default function PinturaLandingPage() {
           alt="Textura de parede de alto padrão"
           fill
           sizes="100vw"
+          loading="lazy"
           className="object-cover object-center"
           aria-hidden="true"
         />
@@ -385,17 +386,19 @@ export default function PinturaLandingPage() {
             <p className="text-[var(--color-light-gray)] max-w-xl mx-auto mb-8">
               Envie uma mensagem com os detalhes da pintura desejada e a localização do imóvel. Nossa equipe fará o levantamento técnico para apresentar o melhor orçamento.
             </p>
-            <a
-              href={whatsappUrl(whatsappMessages.pintura)}
-              target="_blank"
-              rel="noopener noreferrer"
-              id="final-cta-btn"
-              className="btn-primary text-base"
-              aria-label="Solicitar orçamento pelo WhatsApp"
-            >
-              <img src="/iconewhatsapp.png" alt="WhatsApp" className="w-5 h-5 object-contain brightness-0 invert" />
-              Solicitar orçamento pelo WhatsApp
-            </a>
+            <div className="flex justify-center">
+              <a
+                href={whatsappUrl(whatsappMessages.pintura)}
+                target="_blank"
+                rel="noopener noreferrer"
+                id="final-cta-btn"
+                className="btn-primary text-base w-full sm:w-auto max-w-xs sm:max-w-none"
+                aria-label="Solicitar orçamento pelo WhatsApp"
+              >
+                <img src="/iconewhatsapp.png" alt="WhatsApp" className="w-5 h-5 flex-shrink-0 object-contain brightness-0 invert" />
+                Solicitar orçamento pelo WhatsApp
+              </a>
+            </div>
           </div>
         </div>
       </section>
