@@ -15,7 +15,7 @@ export const company = {
 
   // ── Contato ─────────────────────────────────────────────
   // TODO: Preencher com DDD + número real (sem espaços ou traços)
-  whatsapp: "5511999999999",
+  whatsapp: "5511976977579",
   // TODO: Preencher com telefone fixo, se houver. Deixar vazio ("") para ocultar.
   phone: "",
   // TODO: Preencher com e-mail real
