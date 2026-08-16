@@ -221,8 +221,52 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── DIFERENCIAIS EM CARDS ─────────────────────────────── */}
+      <section className="section-padding bg-white" aria-labelledby="benefits-title">
+        <div className="container-site">
+          <h2 id="benefits-title" className="sr-only">Nossos Diferenciais</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+            <div className="bg-white border border-[var(--color-light-gray)] rounded-2xl p-8 flex flex-col items-center text-center gap-4 transition-all duration-200 hover:shadow-lg hover:shadow-dark/5 hover:-translate-y-1 hover:border-[var(--color-accent)]">
+              <div className="w-24 h-24 flex items-center justify-center">
+                <img src="/imagens/garantia total.png" alt="Garantia Total" className="w-24 h-24 object-contain" style={{ filter: "invert(49%) sepia(35%) saturate(1637%) hue-rotate(344deg) brightness(87%) contrast(92%)" }} />
+              </div>
+              <h3 className="text-xl font-heading font-bold text-[var(--color-dark)] mt-2">
+                Garantia Total
+              </h3>
+              <p className="text-sm text-[var(--color-text-gray)] leading-relaxed">
+                Todos os nossos serviços contam com garantia por escrito. Mais segurança e tranquilidade para a sua família e seu imóvel.
+              </p>
+            </div>
+
+            <div className="bg-white border border-[var(--color-light-gray)] rounded-2xl p-8 flex flex-col items-center text-center gap-4 transition-all duration-200 hover:shadow-lg hover:shadow-dark/5 hover:-translate-y-1 hover:border-[var(--color-accent)]">
+              <div className="w-24 h-24 flex items-center justify-center">
+                <img src="/imagens/atendimento rapido.png" alt="Atendimento Rápido" className="w-24 h-24 object-contain" style={{ filter: "invert(49%) sepia(35%) saturate(1637%) hue-rotate(344deg) brightness(87%) contrast(92%)" }} />
+              </div>
+              <h3 className="text-xl font-heading font-bold text-[var(--color-dark)] mt-2">
+                Atendimento Rápido
+              </h3>
+              <p className="text-sm text-[var(--color-text-gray)] leading-relaxed">
+                Equipe ágil distribuída por toda São Paulo e região metropolitana. Agendamos sua visita técnica no menor tempo possível.
+              </p>
+            </div>
+
+            <div className="bg-white border border-[var(--color-light-gray)] rounded-2xl p-8 flex flex-col items-center text-center gap-4 transition-all duration-200 hover:shadow-lg hover:shadow-dark/5 hover:-translate-y-1 hover:border-[var(--color-accent)]">
+              <div className="w-24 h-24 flex items-center justify-center">
+                <img src="/imagens/preçojusto.png" alt="Preço Justo" className="w-24 h-24 object-contain" style={{ filter: "invert(49%) sepia(35%) saturate(1637%) hue-rotate(344deg) brightness(87%) contrast(92%)" }} />
+              </div>
+              <h3 className="text-xl font-heading font-bold text-[var(--color-dark)] mt-2">
+                Preço Justo
+              </h3>
+              <p className="text-sm text-[var(--color-text-gray)] leading-relaxed">
+                Orçamento transparente e detalhado, sem taxas surpresas ou custos ocultos. Condições facilitadas de pagamento.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── PROBLEMA E SOLUÇÃO ─────────────────────────────── */}
-      <section className="section-padding bg-white" aria-labelledby="problem-title">
+      <section className="section-padding bg-[var(--color-warm-white)]" aria-labelledby="problem-title">
         <div className="container-site">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>

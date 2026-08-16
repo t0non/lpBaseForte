@@ -17,6 +17,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL(company.domain),
+  colorScheme: "light",
   title: {
     default: `Construção e Reformas em São Paulo | ${company.name}`,
     template: `%s | ${company.name}`,
