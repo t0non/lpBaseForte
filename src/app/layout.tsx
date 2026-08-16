@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { company } from "@/config/company";
 import Header from "@/components/layout/Header";
@@ -60,6 +61,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={poppins.variable}>
+      {/* Google tag (gtag.js) - GA4 */}
+      <Script
+        id="ga4-script"
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-VHSR5E9WQS"
+      />
+      <Script
+        id="ga4-config"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-VHSR5E9WQS');`,
+        }}
+      />
       <body className="bg-[var(--color-warm-white)] text-[var(--color-graphite)]">
         <GTMProvider />
         <Header />
