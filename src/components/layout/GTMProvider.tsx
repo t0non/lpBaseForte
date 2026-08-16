@@ -4,11 +4,7 @@ import { useEffect } from "react";
 import Script from "next/script";
 
 export default function GTMProvider() {
-  const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
-
-  if (!gtmId) {
-    return null;
-  }
+  const gtmId = process.env.NEXT_PUBLIC_GTM_ID ?? "GTM-TDCDJFCS";
 
   return (
     <>
