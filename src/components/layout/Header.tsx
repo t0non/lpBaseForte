@@ -155,15 +155,6 @@ export default function Header() {
                         {s.name}
                       </Link>
                     ))}
-                    <hr className="my-2 border-[var(--color-light-gray)]" />
-                    <Link
-                      href="/servicos"
-                      role="menuitem"
-                      onClick={() => setServicesOpen(false)}
-                      className="flex items-center gap-3 px-4 py-2.5 text-sm font-semibold text-[var(--color-accent)] hover:bg-[var(--color-light-gray)] transition-colors"
-                    >
-                      Ver todos os serviços →
-                    </Link>
                   </div>
                 )}
               </div>
@@ -283,13 +274,6 @@ export default function Header() {
               {s.name}
             </Link>
           ))}
-          <Link
-            href="/servicos"
-            onClick={closeMobile}
-            className="flex items-center px-5 py-2.5 text-sm font-semibold text-[var(--color-accent)] hover:bg-[var(--color-light-gray)] transition-colors"
-          >
-            Ver todos os serviços →
-          </Link>
 
           <hr className="my-3 mx-5 border-[var(--color-light-gray)]" />
 
