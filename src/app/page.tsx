@@ -142,7 +142,7 @@ export default function HomePage() {
       >
         {/* Background photo */}
         <Image
-          src="/hero-bg-v2.png"
+          src="/imagens/construçoes de casas.jpg"
           alt="Profissionais da Base Forte trabalhando"
           fill
           priority
@@ -345,7 +345,7 @@ export default function HomePage() {
       <section className="relative section-padding text-white overflow-hidden" aria-labelledby="differential-title">
         {/* Background texture */}
         <Image
-          src="/section-bg-home.jpg"
+          src="/section-bg-diferencial.jpg"
           alt="Textura de parede de alto padrão"
           fill
           sizes="100vw"
