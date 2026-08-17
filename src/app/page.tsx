@@ -9,14 +9,14 @@ import FaqAccordion from "@/components/ui/FaqAccordion";
 import GoogleReviewsSlider from "@/components/ui/GoogleReviewsSlider";
 
 export const metadata: Metadata = {
-  title: `Pintura e Porcelanato em São Paulo | ${company.name}`,
-  description: `Especialistas em pintura residencial de alto padrão e assentamento de porcelanato em São Paulo. Acabamento perfeito e organização para transformar seu imóvel. Solicite um orçamento.`,
+  title: `Pintor e Pedreiro em São Paulo | ${company.name}`,
+  description: `Especialistas em pintor residencial de alto padrão e pedreiro em São Paulo. Acabamento perfeito e organização para transformar seu imóvel. Solicite um orçamento.`,
   alternates: {
     canonical: company.domain,
   },
   openGraph: {
-    title: `Pintura e Porcelanato em São Paulo | ${company.name}`,
-    description: `Especialistas em pintura residencial de alto padrão e assentamento de porcelanato em São Paulo. Acabamento perfeito para o seu imóvel.`,
+    title: `Pintor e Pedreiro em São Paulo | ${company.name}`,
+    description: `Especialistas em pintor residencial de alto padrão e pedreiro em São Paulo. Acabamento perfeito para o seu imóvel.`,
     url: company.domain,
     type: "website",
   },
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 
 const homeFaq = [
   {
-    question: "Vocês trabalham com pintura de alto padrão?",
+    question: "Vocês trabalham com pintor de alto padrão?",
     answer:
       "Sim, realizamos pintura residencial com foco em fino acabamento. Preparamos cuidadosamente as superfícies, corrigindo imperfeições antes da aplicação da tinta para garantir um resultado perfeito.",
   },
   {
-    question: "Como é feito o assentamento de porcelanato?",
+    question: "Como é feito o trabalho de pedreiro?",
     answer:
-      "Trabalhamos com mão de obra especializada no assentamento de porcelanato, utilizando niveladores e cunhas para garantir que não haja dentes entre as peças e o alinhamento (paginação) fique impecável.",
+      "Trabalhamos com mão de obra especializada de pedreiro, utilizando niveladores e cunhas para garantir que não haja dentes entre as peças e o alinhamento (paginação) fique impecável.",
   },
   {
     question: "Vocês atendem toda a cidade de São Paulo?",
@@ -161,7 +161,7 @@ export default function HomePage() {
           <div className="max-w-2xl flex flex-col gap-5 lg:gap-6">
             {/* Eyebrow */}
             <p className="text-sm lg:text-base uppercase tracking-wider font-light text-[var(--color-light-gray)]">
-              Especialistas em acabamento em São Paulo
+              Especialistas em Pintor e Pedreiro em São Paulo
             </p>
 
             {/* H1 */}
@@ -169,13 +169,13 @@ export default function HomePage() {
               id="hero-heading"
               className="text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-heading font-bold leading-tight text-white"
             >
-              Pintura e Instalação de Porcelanato,{" "}
+              Pintor e Pedreiro,{" "}
               <span className="text-[var(--color-accent)] font-light">com acabamento impecável</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-[var(--color-light-gray)] text-sm lg:text-lg leading-relaxed max-w-xl">
-              Atendemos toda São Paulo, incluindo Zona Sul, Zona Oeste e Centro. Transforme seus ambientes com a nossa equipe especializada em pintura de alto padrão e assentamento de porcelanato.
+              Atendemos toda São Paulo, incluindo Zona Sul, Zona Oeste e Centro. Transforme seus ambientes com a nossa equipe especializada em pintor de alto padrão e pedreiro.
             </p>
 
             {/* CTAs */}
@@ -279,10 +279,10 @@ export default function HomePage() {
               </h2>
               <div className="prose-site">
                 <p>
-                  A pintura e o revestimento são os itens que você verá todos os dias na sua casa. Uma pintura malfeita ou um piso desnivelado comprometem todo o investimento feito na sua obra. Por isso, ser especialista faz toda a diferença.
+                  A pintura e o revestimento são os itens que você verá todos os dias na sua casa. Uma pintura malfeita ou um piso desnivelado comprometem todo o investimento feito na sua obra. Por isso, ter um pintor e pedreiro especialista faz toda a diferença.
                 </p>
                 <p>
-                  Nossa equipe de pintura e porcelanato foca exclusivamente na perfeição dessas etapas, garantindo que o seu imóvel receba o cuidado, a proteção adequada e o requinte que você espera.
+                  Nossa equipe de pintor e pedreiro foca exclusivamente na perfeição dessas etapas, garantindo que o seu imóvel receba o cuidado, a proteção adequada e o requinte que você espera.
                 </p>
               </div>
             </div>
@@ -322,7 +322,7 @@ export default function HomePage() {
               Especialidades em Acabamento
             </h2>
             <p className="mt-4 text-[var(--color-text-gray)] max-w-2xl mx-auto">
-              Trabalhamos de forma focada para entregar o melhor resultado estético e funcional nas áreas de pintura e revestimentos.
+              Trabalhamos de forma focada para entregar o melhor resultado estético e funcional com nossos pintor e pedreiro especializados.
             </p>
           </div>
 

@@ -9,14 +9,14 @@ import FaqAccordion from "@/components/ui/FaqAccordion";
 import GoogleReviewsSlider from "@/components/ui/GoogleReviewsSlider";
 
 export const metadata: Metadata = {
-  title: `Pintura Residencial de Alto Padrão em São Paulo | ${company.name}`,
-  description: `Especialistas em pintura residencial de alto padrão em São Paulo. Acabamento impecável, proteção completa de móveis e organização para seu imóvel. Solicite um orçamento.`,
+  title: `Pintor Residencial de Alto Padrão em São Paulo | ${company.name}`,
+  description: `Especialistas em pintor residencial de alto padrão em São Paulo. Acabamento impecável, proteção completa de móveis e organização para seu imóvel. Solicite um orçamento.`,
   alternates: {
     canonical: `${company.domain}/pintura`,
   },
   openGraph: {
-    title: `Pintura Residencial de Alto Padrão em São Paulo | ${company.name}`,
-    description: `Especialistas em pintura residencial de alto padrão em São Paulo. Acabamento perfeito e organização para transformar seu imóvel.`,
+    title: `Pintor Residencial de Alto Padrão em São Paulo | ${company.name}`,
+    description: `Especialistas em pintor residencial de alto padrão em São Paulo. Acabamento perfeito e organização para transformar seu imóvel.`,
     url: `${company.domain}/pintura`,
     type: "website",
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
 const homeFaq = [
   {
-    question: "Vocês trabalham com pintura de alto padrão?",
+    question: "Vocês trabalham com pintor de alto padrão?",
     answer:
       "Sim, realizamos pintura residencial com foco em fino acabamento. Preparamos cuidadosamente as superfícies, corrigindo imperfeições antes da aplicação da tinta para garantir um resultado perfeito.",
   },
@@ -144,7 +144,7 @@ export default function PinturaLandingPage() {
           <div className="max-w-3xl flex flex-col items-center gap-4 lg:gap-5">
             {/* Eyebrow */}
             <p className="text-sm lg:text-base uppercase tracking-wider font-light text-[var(--color-light-gray)]">
-              Especialistas em Pintura em São Paulo
+              Especialistas em Pintor em São Paulo
             </p>
 
             {/* H1 */}
@@ -152,13 +152,13 @@ export default function PinturaLandingPage() {
               id="hero-heading"
               className="text-3xl md:text-4xl lg:text-4.5xl xl:text-5xl font-heading font-bold leading-tight text-white max-w-2xl"
             >
-              Pintura Residencial de Alto Padrão,{" "}
+              Pintor Residencial de Alto Padrão,{" "}
               <span className="text-[var(--color-accent)] font-extrabold block sm:inline">com acabamento impecável</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-[var(--color-light-gray)] text-sm lg:text-base leading-relaxed max-w-xl mx-auto">
-              Atendemos toda São Paulo, incluindo Zona Sul, Zona Oeste e Centro. Transforme seus ambientes com a nossa equipe especializada em pintura de alto padrão, massa corrida e acabamentos finos.
+              Atendemos toda São Paulo, incluindo Zona Sul, Zona Oeste e Centro. Transforme seus ambientes com a nossa equipe especializada em pintor de alto padrão, massa corrida e acabamentos finos.
             </p>
 
             {/* CTAs */}
@@ -251,7 +251,7 @@ export default function PinturaLandingPage() {
               Especialidades em Acabamento
             </h2>
             <p className="mt-4 text-[var(--color-text-gray)] max-w-2xl mx-auto">
-              Trabalhamos de forma focada para entregar o melhor resultado estético e funcional nas áreas de pintura e revestimentos.
+              Trabalhamos de forma focada para entregar o melhor resultado estético e funcional com nosso pintor especializado.
             </p>
           </div>
 
@@ -381,7 +381,7 @@ export default function PinturaLandingPage() {
         <div className="container-site">
           <div className="bg-gradient-to-br from-[var(--color-graphite)] to-[var(--color-dark)] rounded-3xl p-10 lg:p-16 text-center">
             <h2 id="final-cta-title" className="text-3xl lg:text-4xl font-heading font-bold text-white mb-4">
-              Vamos avaliar o seu serviço de pintura?
+              Vamos avaliar o seu serviço de pintor?
             </h2>
             <p className="text-[var(--color-light-gray)] max-w-xl mx-auto mb-8">
               Envie uma mensagem com os detalhes da pintura desejada e a localização do imóvel. Nossa equipe fará o levantamento técnico para apresentar o melhor orçamento.

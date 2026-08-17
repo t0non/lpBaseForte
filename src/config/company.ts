@@ -8,10 +8,10 @@ export const company = {
   // TODO: Preencher com o nome real da empresa
   name: "Base Forte",
   // TODO: Preencher com o slogan oficial, se houver
-  tagline: "Especialistas em Pintura e Porcelanato",
+  tagline: "Especialistas em Pintor e Pedreiro",
   // TODO: Preencher com descrição real para SEO e rodapé
   description:
-    "Especialistas em pintura residencial e assentamento de porcelanato em São Paulo. Acabamento perfeito e organização para transformar seu imóvel.",
+    "Especialistas em pintor residencial e pedreiro em São Paulo. Acabamento perfeito e organização para transformar seu imóvel.",
 
   // ── Contato ─────────────────────────────────────────────
   // TODO: Preencher com DDD + número real (sem espaços ou traços)

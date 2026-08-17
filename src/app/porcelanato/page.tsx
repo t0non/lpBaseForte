@@ -9,14 +9,14 @@ import FaqAccordion from "@/components/ui/FaqAccordion";
 import GoogleReviewsSlider from "@/components/ui/GoogleReviewsSlider";
 
 export const metadata: Metadata = {
-  title: `Instalação e Assentamento de Porcelanato em São Paulo | ${company.name}`,
-  description: `Especialistas em assentamento de porcelanato de grande formato e revestimentos finos em São Paulo. Nivelamento perfeito, alinhamento impecável e dente zero. Solicite um orçamento.`,
+  title: `Pedreiro em São Paulo | ${company.name}`,
+  description: `Especialistas em pedreiro de grande formato e revestimentos finos em São Paulo. Nivelamento perfeito, alinhamento impecável e dente zero. Solicite um orçamento.`,
   alternates: {
     canonical: `${company.domain}/porcelanato`,
   },
   openGraph: {
-    title: `Instalação e Assentamento de Porcelanato em São Paulo | ${company.name}`,
-    description: `Especialistas em assentamento de porcelanato e revestimentos de alto padrão em São Paulo. Acabamento perfeito e dente zero.`,
+    title: `Pedreiro em São Paulo | ${company.name}`,
+    description: `Especialistas em pedreiro e revestimentos de alto padrão em São Paulo. Acabamento perfeito e dente zero.`,
     url: `${company.domain}/porcelanato`,
     type: "website",
   },
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
 
 const homeFaq = [
   {
-    question: "Como é feito o assentamento de porcelanato?",
+    question: "Como é feito o trabalho de pedreiro?",
     answer:
-      "Trabalhamos com mão de obra especializada no assentamento de porcelanato, utilizando niveladores e cunhas para garantir que não haja dentes entre as peças e o alinhamento (paginação) fique impecável.",
+      "Trabalhamos com mão de obra especializada de pedreiro, utilizando niveladores e cunhas para garantir que não haja dentes entre as peças e o alinhamento (paginação) fique impecável.",
   },
   {
     question: "Vocês trabalham com porcelanatos de grandes formatos?",
@@ -144,7 +144,7 @@ export default function PorcelanatoLandingPage() {
           <div className="max-w-3xl flex flex-col items-center gap-4 lg:gap-5">
             {/* Eyebrow */}
             <p className="text-sm lg:text-base uppercase tracking-wider font-light text-[var(--color-light-gray)]">
-              Especialistas em Porcelanato em São Paulo
+              Especialistas em Pedreiro em São Paulo
             </p>
 
             {/* H1 */}
@@ -152,13 +152,13 @@ export default function PorcelanatoLandingPage() {
               id="hero-heading"
               className="text-3xl md:text-4xl lg:text-4.5xl xl:text-5xl font-heading font-bold leading-tight text-white max-w-2xl"
             >
-              Assentamento de Porcelanato,{" "}
+              Pedreiro,{" "}
               <span className="text-[var(--color-accent)] font-extrabold block sm:inline">com nivelamento perfeito</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-[var(--color-light-gray)] text-sm lg:text-base leading-relaxed max-w-xl mx-auto">
-              Atendemos toda São Paulo, incluindo Zona Sul, Zona Oeste e Centro. Transforme seus ambientes com a nossa equipe especializada em porcelanatos de grandes formatos, revestimentos e dente zero.
+              Atendemos toda São Paulo, incluindo Zona Sul, Zona Oeste e Centro. Transforme seus ambientes com a nossa equipe especializada em pedreiro de alto padrão, grandes formatos e dente zero.
             </p>
 
             {/* CTAs */}
@@ -251,7 +251,7 @@ export default function PorcelanatoLandingPage() {
               Especialidades em Acabamento
             </h2>
             <p className="mt-4 text-[var(--color-text-gray)] max-w-2xl mx-auto">
-              Trabalhamos de forma focada para entregar o melhor resultado estético e funcional nas áreas de pintura e revestimentos.
+              Trabalhamos de forma focada para entregar o melhor resultado estético e funcional com nosso pedreiro especializado.
             </p>
           </div>
 
@@ -381,7 +381,7 @@ export default function PorcelanatoLandingPage() {
         <div className="container-site">
           <div className="bg-gradient-to-br from-[var(--color-graphite)] to-[var(--color-dark)] rounded-3xl p-10 lg:p-16 text-center">
             <h2 id="final-cta-title" className="text-3xl lg:text-4xl font-heading font-bold text-white mb-4">
-              Vamos avaliar o seu serviço de revestimento?
+              Vamos avaliar o seu serviço de pedreiro?
             </h2>
             <p className="text-[var(--color-light-gray)] max-w-xl mx-auto mb-8">
               Envie uma mensagem com os detalhes do assentamento e a localização do imóvel. Nossa equipe fará o levantamento técnico para apresentar o melhor orçamento.
